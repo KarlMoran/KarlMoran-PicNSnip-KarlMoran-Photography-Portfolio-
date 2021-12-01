@@ -1,4 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
 body {
     font-family: Times New Roman;
+    font-weight: 400;
 }
+
+
+#name-logo {
+    font-size: 300%;
+    float: left;
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    color: black;
+    text-align: center;
+
 }
