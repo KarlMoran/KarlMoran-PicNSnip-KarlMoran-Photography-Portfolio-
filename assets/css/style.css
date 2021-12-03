@@ -9,12 +9,16 @@
 body {
     font-family: Times New Roman;
     font-weight: 400;
+    color: black
 }
 
+/* design for header*/
 
 #name-logo {
-    font-size: 300%;
+    font-size: 280%;
     float: left;
+    margin-left: 1%;
+    margin-top: 2%;
 }
 
 h1 {
@@ -22,4 +26,36 @@ h1 {
     color: black;
     text-align: center;
 
+}
+
+.center{
+    margin-left: 35%;
+    display: block;
+    margin-
+}
+    
+#nav-menu {
+    font-size: 110%;
+    letter-spacing: 3px;
+}
+
+#nav-menu li {
+    float: right;
+    margin-right: 30px;
+    list-style-type: none;
+    text-transform: uppercase;
+    
+}
+
+#nav-menu a {
+    color: black;
+    text-decoration: none;
+}
+
+#nav-menu {
+    line-height: 150px;
+}
+
+#menu a:hover {
+    border-bottom: 2px solid #0000;
 }
