@@ -31,7 +31,7 @@ h1 {
 .center{
     margin-left: 35%;
     display: block;
-    margin-
+    
 }
     
 #nav-menu {
@@ -58,4 +58,15 @@ h1 {
 
 #nav-menu a:hover {
     border-bottom: 2px solid #404040;
+}
+
+.center-image {
+    margin-left: 25%;
+    margin-right: 25%;
+    display: block;
+        
+}
+
+#black {
+    background-color: black;
 }
