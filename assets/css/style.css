@@ -56,6 +56,6 @@ h1 {
     line-height: 150px;
 }
 
-#menu a:hover {
-    border-bottom: 2px solid #0000;
+#nav-menu a:hover {
+    border-bottom: 2px solid #404040;
 }
