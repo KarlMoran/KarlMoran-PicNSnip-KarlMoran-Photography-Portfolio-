@@ -67,6 +67,39 @@ h1 {
         
 }
 
+/* section background color*/
+
 #black {
     background-color: black;
+}
+
+/* footer */
+
+footer {
+    height: 50px;
+
+}
+
+.social-media { 
+    text-align: left;
+}
+
+.social-media > li {
+    display: inline;
+}
+
+.social-media i {
+    font-size: 180%;
+    margin: 2%;
+    padding: .5%;
+    color: #000;
+}
+
+#signature {
+    display: inline;
+    float: right;
+    margin-right: 2%;
+    margin-top: 25px;
+    
+    
 }
