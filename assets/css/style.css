@@ -103,3 +103,15 @@ footer {
     
     
 }
+/* photography */
+
+#photography {
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0;
+    clear: both;
+}
+
+#photography > img {
+    width: 100%;
+}
