@@ -24,7 +24,7 @@
                 <a href="contact.html"> Contact </a>
             </li>
             <li>
-                <a href="#"> About </a>
+                <a href="about.html"> About </a>
             </li>
             <li>
                 <a href="photography.html">Photography </a>
@@ -38,8 +38,27 @@
      <img src="assets/css/images/logo-pns.png" alt="photography logo pns" class="center" width="175" height="175">
    </header>
 
-    <section id="black">
-        <img src="assets/css/images/P1012263.jpg" alt="Black&white photo of houses under an arch" class="center-image" width="600" height="600">
+    <section class="contact-form center">
+        <form method="post" action="link">
+            <h2> Contact </h2>
+            <label for="fname"> Frist Name</label>
+            <input id="fname" type="text" name="first_name" placeholder="Frist name" required >
+
+            <label for="lname"> Last Name</label>
+            <input id="lname" type="text" name="Last_name" placeholder="Last name" required >
+
+            <label for="email"> Email </label>
+            <input id="email" type="email" name="email_address" required >
+            
+
+            <label for="subject"> Subject </label>
+            <textarea id="subject" name="subject" placeholder="write comments" style="height: 200px"></textarea>
+
+            <input type="submit" value="submit">
+
+
+        </form>
+        
      </section>
     <footer> 
      <ul class="social-media">
