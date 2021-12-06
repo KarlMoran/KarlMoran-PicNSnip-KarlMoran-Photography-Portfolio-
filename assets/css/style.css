@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Smooch&display=swap');
 
 * {
     margin: 0;
@@ -15,14 +15,14 @@ body {
 /* design for header*/
 
 #name-logo {
-    font-size: 280%;
+    font-size: 300%;
     float: left;
     margin-left: 2%;
-    margin-top: 2%;
+    margin-top: 4%;
 }
 
-h1 {
-    font-family: 'Dancing Script', cursive;
+h1 , h2 {
+    font-family: 'Smooch', cursive;
     color: black;
     text-align: center;
 
@@ -67,6 +67,27 @@ h1 {
         
 }
 
+/* About section */
+
+#about {
+    font-size: 100%;
+    font-family: Times New Roman;
+    letter-spacing: 4px;
+
+    width: 300px;
+    height: 200px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgba(94, 91, 91, 0.7);
+
+    bottom: 30px;
+    right: 150px;
+    position: right;
+    
+}
+
 /* section background color*/
 
 #black {
@@ -100,6 +121,7 @@ footer {
     float: right;
     margin-right: 2%;
     margin-top: 25px;
+    
     
     
 }
