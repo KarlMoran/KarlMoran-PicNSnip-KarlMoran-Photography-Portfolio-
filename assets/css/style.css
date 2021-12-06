@@ -15,10 +15,10 @@ body {
 /* design for header*/
 
 #name-logo {
-    font-size: 300%;
+    font-size: 400%;
     float: left;
     margin-left: 2%;
-    margin-top: 4%;
+    margin-top: 2%;
 }
 
 h1 , h2 {
@@ -29,13 +29,13 @@ h1 , h2 {
 }
 
 .center{
-    margin-left: 40%;
+    margin-left: 42.5%;
     display: block;
     
 }
     
 #nav-menu {
-    font-size: 110%;
+    font-size: 120%;
     letter-spacing: 3px;
 }
 
@@ -61,7 +61,7 @@ h1 , h2 {
 }
 
 .center-image {
-    margin-left: 25%;
+    margin-left: 27%;
     margin-right: 25%;
     display: block;
         
@@ -97,7 +97,7 @@ h1 , h2 {
 /* footer */
 
 footer {
-    height: 50px;
+    height: 45px;
 
 }
 
@@ -110,8 +110,8 @@ footer {
 }
 
 .social-media i {
-    font-size: 180%;
-    margin: 2%;
+    font-size: 200%;
+    margin: 2.5%;
     padding: .5%;
     color: #000;
 }
@@ -121,6 +121,7 @@ footer {
     float: right;
     margin-right: 2%;
     margin-top: 25px;
+    font-size: 300%;
     
     
     
@@ -129,14 +130,13 @@ footer {
 /* photography */
 
 .row1 {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 5px;
+    display: inline-flex;
+    padding: 0 4px;
 }
 
 .column1 {
-    flex: 24%;
-    max-width: 24%;
+    flex: 25%;
+    max-width: 25%;
     padding: 0 5px;
 }
 
@@ -144,6 +144,7 @@ footer {
     margin-top: 8px;
     vertical-align: middle;
     width: 100%;
+    height: auto;
 }
 
 /* contact form */
