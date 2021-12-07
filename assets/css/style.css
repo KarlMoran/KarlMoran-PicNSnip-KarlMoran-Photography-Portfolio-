@@ -126,23 +126,46 @@ footer {
     height: auto;
 }
 
-/* Responsize Gallery*/
+/* Responsize G*/
 
 @media screen and (max-width: 800px) {
     .column1 {
-        flex: 50%;
-        max-width: 50%;
+       column-count: 2;
     }
+
 }
 
 @media screen and (max-width: 600px) {
     .column1 {
         flex: 100%;
-        max-width: 100%;
+        column-count: 2;
         margin: 0 auto;
     }
 }
     
+@media screen and (max-width:950px) {
+    #nav-menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+
+    header , img {
+        clear: none;
+        float: none;
+        background: transparent;
+        
+    }
+
+    section , img {
+        max-width: 100%;
+        height: auto;
+    }
+
+
+}
 
 /* contact form */
 
@@ -194,7 +217,7 @@ input[type=submit]:hover {
     font-size: 110%;
     font-family: Times New Roman;
     letter-spacing: 4px;
-    text-align: justify;
+    text-align: center;
 
     width: 498px;
     height: 458px;
