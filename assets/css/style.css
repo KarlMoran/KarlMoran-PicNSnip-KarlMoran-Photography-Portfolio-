@@ -126,6 +126,24 @@ footer {
     height: auto;
 }
 
+/* Responsize Gallery*/
+
+@media screen and (max-width: 800px) {
+    .column1 {
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .column1 {
+        flex: 100%;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+}
+    
+
 /* contact form */
 
 .contact-form {
