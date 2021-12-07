@@ -76,20 +76,23 @@ h1 , h2 {
 
 footer {
     height: 45px;
+   
 
 }
 
 .social-media { 
     text-align: left;
+    
 }
 
 .social-media > li {
     display: inline;
+    
 }
 
 .social-media i {
     font-size: 200%;
-    margin: 2.5%;
+    margin: 3%;
     padding: .5%;
     color: #000;
 }
@@ -97,8 +100,8 @@ footer {
 #signature {
     display: inline;
     float: right;
-    margin-right: 2%;
-    margin-top: 25px;
+    margin-right: 4%;
+    margin-top: 35px;
     font-size: 300%;
     position: relative;
     
