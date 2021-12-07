@@ -66,28 +66,6 @@ h1 , h2 {
     display: block;
         
 }
-
-/* About section */
-
-#about {
-    font-size: 100%;
-    font-family: Times New Roman;
-    letter-spacing: 4px;
-
-    width: 300px;
-    height: 200px;
-
-    padding-top: 40px;
-    padding-left: 10px;
-
-    background-color: rgba(94, 91, 91, 0.7);
-
-    bottom: 30px;
-    right: 150px;
-    position: right;
-    
-}
-
 /* section background color*/
 
 #black {
@@ -122,6 +100,7 @@ footer {
     margin-right: 2%;
     margin-top: 25px;
     font-size: 300%;
+    position: relative;
     
     
     
@@ -178,4 +157,44 @@ input[type=submit] {
 
 input[type=submit]:hover {
     background-color: #404040;
+}
+
+/* About section */
+
+#about-image {
+    height: 545px;
+    width: 100%;
+    overflow: hidden;
+    background-color: #000;
+
+    position: relative;
+
+    
+}
+
+#about {
+    font-size: 110%;
+    font-family: Times New Roman;
+    letter-spacing: 4px;
+    text-align: justify;
+
+    width: 498px;
+    height: 458px;
+
+    padding-top: 40px;
+    padding-left: 15px;
+
+    background-color: rgba(255, 255, 255, 0.938);
+
+    top: 20px;
+    bottom: 100px;
+    right: 210px;
+    position: absolute;
+    
+}
+
+
+.position {
+    margin-left: 150px;
+    margin-top: 20px;
 }
