@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     border: 0;
+    
 }
 
 body {
@@ -114,6 +115,7 @@ footer {
 .row1 {
     display: inline-flex;
     padding: 0 4px;
+    
 }
 
 .column1 {
@@ -129,12 +131,38 @@ footer {
     height: auto;
 }
 
-/* Responsize G*/
+/* Responsize */
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 950px) {
     .column1 {
-       column-count: 2;
+       column-count: 3;
+       display: flex;
+       flex-direction: row;
     }
+
+    #nav-menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+
+    nav, img {
+        clear: none;
+        background: transparent;
+        left: 50px;
+        
+    }
+
+
+    section , img {
+        max-width: 75%;
+        height: auto;
+        left: 250px;
+    }
+    
+    
 
 }
 
@@ -146,49 +174,26 @@ footer {
     }
 }
     
-@media screen and (max-width:950px) {
-    #nav-menu {
-        clear: left;
-        float: left;
-        margin-left: 30px;
-        margin-bottom: 20px;
-        line-height: 25px;
-    }
-
-    header , img {
-        clear: none;
-        float: none;
-        background: transparent;
-        
-    }
-
-    section , img {
-        max-width: 100%;
-        height: auto;
-    }
-
-
-}
 
 /* contact form */
 
 .contact-form {
     border-radius: 4px;
-    background-color: hsla(0, 0%, 0%, 0.979);
+    background-color: hsla(0, 1%, 42%, 0.979);
     padding: 20px;
     color: white;
-    
-    
+    margin-top: -300px;
+    margin-bottom: 20px;
 }
 
 input [type=text], select, textarea {
-    width: 50%;
+    width: 80%;
     padding: 12px;
     border: 1px solid #404040;
     border-radius: 4px;
     margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
+    margin-bottom: 10px;
+    resize: both;
 }
 
 input[type=submit] {
@@ -241,4 +246,13 @@ input[type=submit]:hover {
 .position {
     margin-left: 150px;
     margin-top: 20px;
+}
+
+#selfie {
+    height: 300px;
+    width: 450px;
+    overflow: hidden;
+    margin-left: 60px;
+    margin-top: 50px;
+    
 }
