@@ -33,6 +33,7 @@ h1 , h2 {
     margin-left: 42.5%;
     display: block;
     
+    
 }
     
 #nav-menu {
@@ -64,15 +65,19 @@ h1 , h2 {
 .center-image {
     margin-left: 27%;
     margin-right: 25%;
-    display: block;
+    margin-top: 2.5px;
         
 }
 /* section background color*/
 
 #black {
     background-color: black;
-    height: 700px;
+    height: 620px;
     
+}
+
+#black1 {
+    background-color: #000;
 }
 
 /* footer */
@@ -184,13 +189,19 @@ footer {
     background-color: hsla(0, 1%, 42%, 0.979);
     padding: 20px;
     color: white;
-    margin-top: -300px;
+    margin-top: -375px;
     margin-bottom: 20px;
+    margin-right: 75px;
+    width: 40%;
+    height: 70%;
+    font-size: 20px;
+    text-align: left;
+    
     
 }
 
 input [type=text], select, textarea {
-    width: 80%;
+    width: 70%;
     padding: 12px;
     border: 1px solid #404040;
     border-radius: 4px;
@@ -218,6 +229,8 @@ input[type=submit]:hover {
     width: 600px;
     overflow: hidden;
     background-color: #000;
+    border-radius: 20px;
+    margin-top: 30px;
 
     position: relative;
     
@@ -239,10 +252,12 @@ input[type=submit]:hover {
 
     background-color: rgba(255, 255, 255, 0.938);
 
-    top: 170px;
+    top: 200px;
     bottom: 100px;
     right: 110px;
     position: absolute;
+
+    border-radius: 20px;
     
 }
 
@@ -256,8 +271,13 @@ input[type=submit]:hover {
     height: 300px;
     width: 450px;
     overflow: hidden;
-    margin-left: 60px;
-    margin-top: 50px;
+    margin-left: 100px;
+    margin-top: 150px;
+    border-radius: 10px;
     
+}
+
+.right {
+    margin-left: 50%;
 }
 
