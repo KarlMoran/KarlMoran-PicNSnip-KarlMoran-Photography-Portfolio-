@@ -139,12 +139,18 @@ footer {
 }
 
 /* Responsize */
+@media screen and (max-width: 800px) {
+    .column1 {
+        flex: 50%;
+        max-width: 50%;
+    }
+}
 
 @media screen and (max-width: 950px) {
     .column1 {
-       column-count: 3;
+       column-count: 2;
        display: flex;
-       flex-direction: row;
+       flex-direction: column;
     }
 
     #nav-menu {
@@ -153,20 +159,53 @@ footer {
         margin-left: 30px;
         margin-bottom: 20px;
         line-height: 25px;
+        text-align: center;
     }
 
-    nav, img {
+    #left, .center {
         clear: none;
         background: transparent;
-        left: 50px;
+        left: 100px;
+        max-width: 50%;
+        height: auto;
         
     }
 
-
-    section , img {
-        max-width: 75%;
+    #black {
+        width: 100%;
+        max-width: 950px;
         height: auto;
-        left: 250px;
+       
+    }
+
+    .center-image {
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+        
+    
+    }
+
+    #black1 {
+        width: 100%;
+        max-width: 950px;
+        height: auto;
+       
+    }
+
+    .postision, #about-image {
+        width: 100%;
+        max-width: 350px;
+        height: auto;
+        margin-left: 1px;
+    }
+
+    #about {
+        width: 100%;
+        max-width: 350px;
+        height: auto;
+        margin-right: -100px;
+
     }
     
     
@@ -176,8 +215,44 @@ footer {
 @media screen and (max-width: 600px) {
     .column1 {
         flex: 100%;
+        max-width: 100%;
         column-count: 2;
-        margin: 0 auto;
+       
+        
+    }
+    #nav-menu {
+        clear: left;
+        float: left center;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+        text-align: center;
+        font-size: 90%;
+    }
+
+    #left, .center {
+        clear: none;
+        background: transparent;
+        left: 50px;
+        max-width: 100%;
+        height: auto;
+        
+    }
+
+    .postision, #about-image {
+        width: 100%;
+        max-width: 250px;
+        height: auto;
+        margin-left: 75px;
+        font
+    }
+
+    #about {
+        width: 100%;
+        max-width: 250px;
+        height: auto;
+        margin-right: -75px;
+ 
     }
 }
     
