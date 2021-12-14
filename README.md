@@ -32,3 +32,25 @@ The footer also inclubes a video link icon and a signature. The video link shows
 The footer is valuable to the user as it encourages them to keep connected via social media
 
 (screen shot footer)
+
+The Photography 
+
+The photography page will show case a number of my photos taken over the last year. 
+It is a collection of my best work so far.
+The photos are a mix and macth collection, trying out different styles and settings while learning photogrpahy. 
+
+(screen shot photography page)
+
+The About page
+
+The about page is a breif description on why I got into photography. 
+Gives the users a insight into me.
+
+(screen shot about page)
+
+The contact Page 
+
+This will allow users to get into contatct with the owner of the site. 
+To find out any information regarring the photos on the website, could be making a purchases or asking to do a photography job. 
+
+(screenshot of contact page)
