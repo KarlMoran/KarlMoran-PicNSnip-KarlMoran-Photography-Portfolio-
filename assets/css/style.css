@@ -318,6 +318,31 @@ div#about h1 {
     }
 }
 
+@media screen and (max-width: 1024px) {
+    div.column1 {
+        column-count: 2;
+        display: flex;
+        flex-direction: column;
+     }
+     ul#nav-menu {
+        clear: left;
+        float: left;
+        margin-left: 275px;
+        margin-bottom: 20px;
+        line-height: 25px;
+        text-align: center;
+    }
+
+    #left.center {
+        clear: none;
+        background: transparent;
+        left: 100px;
+        max-width: 50%;
+        height: auto;
+        
+    }
+}
+
 @media screen and (max-width: 950px) {
     .column1 {
        column-count: 2;
@@ -325,7 +350,7 @@ div#about h1 {
        flex-direction: column;
     }
 
-    #nav-menu {
+    ul#nav-menu {
         clear: left;
         float: left;
         margin-left: 30px;
