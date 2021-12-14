@@ -8,7 +8,7 @@
 }
 
 body {
-    font-family: Times New Roman;
+    font-family: 'Times New Roman';
     font-weight: 400;
     color: black
 }
@@ -197,7 +197,7 @@ input[type=submit]:hover {
 
 #about {
     font-size: 110%;
-    font-family: Times New Roman;
+    font-family: 'Times New Roman';
     letter-spacing: 4px;
     text-align: center;
 
@@ -242,9 +242,9 @@ input[type=submit]:hover {
 
 @media screen and (max-width: 375px) {
    
-    .center {
-       width: 30%;
-       max-width: 100px;
+    img.center {
+       width: 100px;
+       height: 100px;
    }
     
     .center-image {
@@ -257,18 +257,18 @@ input[type=submit]:hover {
 
     ul#nav-menu {
     clear: left;
-    float: center;
+    float: left;
     margin-left: 7px;
     margin-bottom: 10px;
     line-height: 10px;
     text-align: center;
     font-size: 9px;
-    text-transform: bold;
+    
 }
 
 img#left.center {
     width: 105px;
-    position: center;
+    position: fixed;
     margin-left: 135px;
     
     
@@ -287,6 +287,26 @@ footer{
 section#black {
     height: 450px;
     width: 375px;
+}
+
+div#about {
+    width: 200px;
+    height: 185px;
+    position: sticky;
+    margin-left: 150px;
+    
+}
+img#about-image.position {
+    width: 200px;
+    height: 200px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+div#about p {
+    font-size: 7px;
+}
+div#about h1 {
+    font-size: 8px;
 }
 
 }
@@ -325,7 +345,7 @@ section#black {
 
     #black {
         width: 100%;
-        max-width: auto;
+        max-width: 950px;
         height: auto;
        
     }
@@ -340,7 +360,7 @@ section#black {
 
     #black1 {
         width: 100%;
-        max-width: auto;
+        max-width: 950px;
         height: auto;
        
     }
@@ -375,7 +395,7 @@ section#black {
     }
     #nav-menu {
         clear: left;
-        float: left center;
+        float: left;
         margin-left: 30px;
         margin-bottom: 20px;
         line-height: 25px;
