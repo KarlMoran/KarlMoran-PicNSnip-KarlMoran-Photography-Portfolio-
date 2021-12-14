@@ -4,7 +4,6 @@
     margin: 0;
     padding: 0;
     border: 0;
-    
 }
 
 body {
@@ -26,14 +25,11 @@ h1 , h2 {
     font-family: 'Smooch', cursive;
     color: black;
     text-align: center;
-
 }
 
 .center{
     margin-left: 42.5%;
     display: block;
-    
-    
 }
     
 #nav-menu {
@@ -46,7 +42,6 @@ h1 , h2 {
     margin-right: 30px;
     list-style-type: none;
     text-transform: uppercase;
-    
 }
 
 #nav-menu a {
@@ -65,15 +60,13 @@ h1 , h2 {
 .center-image {
     margin-left: 27%;
     margin-right: 25%;
-    margin-top: 2.5px;
-        
+    margin-top: 2.5px;      
 }
 /* section background color*/
 
 #black {
     background-color: black;
     height: 620px;
-    
 }
 
 #black1 {
@@ -84,18 +77,14 @@ h1 , h2 {
 
 footer {
     height: 80px;
-   
-
 }
 
 .social-media { 
-    text-align: left;
-    
+    text-align: left;   
 }
 
 .social-media > li {
-    display: inline;
-    
+    display: inline;   
 }
 
 .social-media i {
@@ -112,18 +101,14 @@ footer {
     margin-top: 35px;
     font-size: 300%;
     position: relative;
-    font-family: 'Smooch';
-    
-    
-    
+    font-family: 'Smooch';  
 }
 
 /* photography */
 
 .row1 {
     display: inline-flex;
-    padding: 0 4px;
-    
+    padding: 0 4px;   
 }
 
 .column1 {
@@ -139,7 +124,6 @@ footer {
     height: auto;
 }
 
-
 /* contact form */
 
 .contact-form {
@@ -154,8 +138,6 @@ footer {
     height: 70%;
     font-size: 20px;
     text-align: left;
-    
-    
 }
 
 input [type=text], select, textarea {
@@ -212,9 +194,7 @@ input[type=submit]:hover {
     position: absolute;
 
     border-radius: 20px;
-    
 }
-
 
 .position {
     margin-left: 150px;
@@ -228,7 +208,6 @@ input[type=submit]:hover {
     margin-left: 100px;
     margin-top: 150px;
     border-radius: 10px;
-    
 }
 
 .right {
