@@ -218,66 +218,43 @@ input[type=submit]:hover {
 
 @media screen and (max-width: 375px) {
    
-    
-    img.center-image {
-        width: 50%;
-        max-width: 200px;
-        height: auto;
-        left: 1px;
-    
-   }
-
     ul#nav-menu {
-    clear: left;
-    float: left;
-    margin-left: 7px;
-    margin-bottom: 10px;
-    line-height: 10px;
-    text-align: center;
-    font-size: 9px;
-   }
+        clear: left;
+        float: left;
+        margin-left: 1px;
+        margin-bottom: 20px;
+        line-height: 25px;
+        text-align: left;
+        font-size: 45%;
+    }
 
     img#left.center {
-    width: 105px;
-    position: fixed;
-    margin-left: 135px;
-   }
+        height: 100px;
+        width: 100px;
+        margin-left: 145px;   
+    }
 
-    h1#signature {
-    font-size: 35px;
-    margin-top: 10px;
-   }
+    img.center-image {
+        height: 375px;
+        width: 375px; 
+    }
 
-    footer{ 
-    margin-top: 15px;
-
-   }
     section#black {
-    height: 450px;
-    width: 800px;
-   }
-
-    div#about {
-    width: 200px;
-    height: 185px;
-    position: sticky;
-    margin-left: 150px; 
-   }
+        width: 100%;
+        max-width: 375px;
+        height: auto;     
+    }
 
     img#about-image.position {
-    width: 200px;
-    height: 200px;
-    margin-left: 20px;
-    margin-top: 5px;
-   }
+        height: 250px;
+        width: fit-content;
+    }
 
-    div#about p {
-    font-size: 7px;
-   }
-
-   div#about h1 {
-    font-size: 8px;
-   }
+    div#about {
+        height: 175px;
+        width: 175px;
+    }
+    
 
 }
 
@@ -293,8 +270,9 @@ input[type=submit]:hover {
         column-count: 2;
         display: flex;
         flex-direction: column;
-     }
-     ul#nav-menu {
+    }
+
+    ul#nav-menu {
         clear: left;
         float: left;
         margin-left: 275px;
@@ -370,7 +348,7 @@ input[type=submit]:hover {
 
     section#black {
         width: 100%;
-        max-width: 950px;
+        max-width: 1000px;
         height: auto;
        
     }
@@ -404,9 +382,8 @@ input[type=submit]:hover {
         flex: 100%;
         max-width: 100%;
         column-count: 2;
-       
-        
     }
+
     #nav-menu {
         clear: left;
         float: left;
@@ -423,7 +400,6 @@ input[type=submit]:hover {
         left: 50px;
         max-width: 100%;
         height: auto;
-        
     }
 
     .postision#about-image {
@@ -431,21 +407,18 @@ input[type=submit]:hover {
         max-width: 250px;
         height: auto;
         margin-left: 75px;
-        
     }
     
     #about {
         max-width: 250px;
         height: auto;
         margin-right: -75px;
-
     } 
 
     section#black {
         width: 100%;
         max-width: 950px;
         height: auto;
-       
     }
 }
     
