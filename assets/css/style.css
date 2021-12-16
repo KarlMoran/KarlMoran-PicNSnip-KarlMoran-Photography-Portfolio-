@@ -235,51 +235,49 @@ input[type=submit]:hover {
     line-height: 10px;
     text-align: center;
     font-size: 9px;
-    
-}
+   }
 
-img#left.center {
+    img#left.center {
     width: 105px;
     position: fixed;
     margin-left: 135px;
-    
-    
-    
-}
-h1#signature {
+   }
+
+    h1#signature {
     font-size: 35px;
     margin-top: 10px;
+   }
 
-}
-
-footer{ 
+    footer{ 
     margin-top: 15px;
 
-}
-section#black {
+   }
+    section#black {
     height: 450px;
-    width: 750px;
-}
+    width: 800px;
+   }
 
-div#about {
+    div#about {
     width: 200px;
     height: 185px;
     position: sticky;
-    margin-left: 150px;
-    
-}
-img#about-image.position {
+    margin-left: 150px; 
+   }
+
+    img#about-image.position {
     width: 200px;
     height: 200px;
     margin-left: 20px;
     margin-top: 5px;
-}
-div#about p {
+   }
+
+    div#about p {
     font-size: 7px;
-}
-div#about h1 {
+   }
+
+   div#about h1 {
     font-size: 8px;
-}
+   }
 
 }
 
@@ -313,6 +311,36 @@ div#about h1 {
         height: auto;
         
     }
+
+    img#about-image.position {
+        margin-left: 20px;
+
+    }
+
+    div#about {
+        width: 300px;
+        height: 500px;
+        margin-right: -80px;
+    }
+
+    section#black {
+        width: 100%;
+        max-width: 1030px;
+        height: auto;  
+    }
+
+    img.center-image {
+        margin-left: 225px;
+    }
+
+    div.contact-form.right {
+        margin-top: -385px;
+        
+    }
+
+    img#selfie {
+        margin-left: 25px;
+    }
 }
 
 @media screen and (max-width: 950px) {
@@ -340,7 +368,7 @@ div#about h1 {
         
     }
 
-    #black {
+    section#black {
         width: 100%;
         max-width: 950px;
         height: auto;
@@ -368,17 +396,6 @@ div#about h1 {
         height: auto;
         margin-left: 1px;
     }
-
-    #about {
-        width: 100%;
-        max-width: 350px;
-        height: auto;
-        margin-right: -100px;
-
-    }
-    
-    
-    
 
 }
 
@@ -424,7 +441,7 @@ div#about h1 {
 
     } 
 
-    #black {
+    section#black {
         width: 100%;
         max-width: 950px;
         height: auto;
