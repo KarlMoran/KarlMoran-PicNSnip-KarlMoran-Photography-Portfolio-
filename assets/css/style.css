@@ -218,16 +218,12 @@ input[type=submit]:hover {
 
 @media screen and (max-width: 375px) {
    
-    img.center {
-       width: 100px;
-       height: 100px;
-   }
     
-    .center-image {
+    img.center-image {
         width: 50%;
         max-width: 200px;
         height: auto;
-        margin-left: 10px;
+        left: 1px;
     
    }
 
@@ -262,7 +258,7 @@ footer{
 }
 section#black {
     height: 450px;
-    width: 375px;
+    width: 750px;
 }
 
 div#about {
