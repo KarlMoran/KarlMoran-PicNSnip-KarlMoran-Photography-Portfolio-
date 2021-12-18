@@ -3,7 +3,7 @@
 
 PicNSip Photogrpahy Portfolio is a site that shows off my photography skills. The site is a portfoloio of all my work throughout the year during the panedmic. I only started studying photography during the covid panedmic but it has always been an interest of mine. Photography helped me get through the panedmic. It made me go out and explore & see things through a camera lens. 
 
-(screen shot of site on different devices)
+![Responsive devices](https:/workspace/KarlMoran-PicNSnip-KarlMoran-Photography-Portfolio-/assets/css/images/devices.png)
 
 
 ## Features 
@@ -77,8 +77,6 @@ No errors were found when passing through the official (Jigsaw) validator
 
 I have tested that this page works in different browers chromne, firefox, safari. 
 This page is also responsive to a number of devices. 
-
-![Responsive devices](https:/workspace/KarlMoran-PicNSnip-KarlMoran-Photography-Portfolio-/assets/css/images/devices.png)
 
 #### Unfixed Bugs
 I have a few issues with my home page being responsive to a moblie phone. It works fine in landscape view on a moblie phone.
