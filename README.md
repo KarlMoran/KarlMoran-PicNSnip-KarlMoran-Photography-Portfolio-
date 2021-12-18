@@ -83,10 +83,12 @@ This page is also responsive to a number of devices.
 #### Unfixed Bugs
 I have a few issues with my home page being responsive to a moblie phone. It works fine in landscape view on a moblie phone.
 
+Image size, some of my photos are quite big in size. I have tried to reduce the size of all the photos and some are still too big, cause page to perform slowly.  
+
 
 ## LightHouse 
 
-Home page 
+Home page score. 
 
 ![Responsive devices](https:/workspace/KarlMoran-PicNSnip-KarlMoran-Photography-Portfolio-/assets/css/images/Home-score.png)
 
@@ -104,9 +106,9 @@ The live link can be found here - https://karlmoran.github.io/KarlMoran-PicNSnip
 
 Content 
 
-The text for the Home page was taken from Google fonts
+The text for the Home page was taken from Google fonts.
 The icons in the footer were taken from Font Awesome
-PNS logo was created by myself using canva
+PNS logo was created by myself using canva.
 
 Media
 

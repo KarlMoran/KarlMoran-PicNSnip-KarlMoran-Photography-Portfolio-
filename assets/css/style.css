@@ -222,15 +222,15 @@ input[type=submit]:hover {
         clear: left;
         float: left;
         margin-left: 1px;
-        margin-bottom: 20px;
+        margin-bottom: 30px;
         line-height: 25px;
         text-align: left;
         font-size: 45%;
     }
 
     img#left.center {
-        height: 100px;
-        width: 100px;
+        height: 99px;
+        width: 99px;
         margin-left: 145px;   
     }
 
@@ -240,8 +240,8 @@ input[type=submit]:hover {
     }
 
     section#black {
-        width: 150%;
-        max-width: 375px;
+        width: 100%;
+        max-width: 800px;
         height: auto;     
     }
 
@@ -258,8 +258,6 @@ input[type=submit]:hover {
     div#about p {
         font-size: 10px;
     }
-    
-
 }
 
 @media screen and (max-width: 800px) {
