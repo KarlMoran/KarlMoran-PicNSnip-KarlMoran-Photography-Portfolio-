@@ -61,7 +61,7 @@ To find out any information regarring the photos on the website, could be making
 
 ## Testing 
 
-Validator Testing
+### Validator Testing
 
 HTML
 Only the one error returned when passing through the official W3C validator. Not a big deal. 
@@ -75,7 +75,21 @@ No errors were found when passing through the official (Jigsaw) validator
 ![CSS W3C](https:/workspace/KarlMoran-PicNSnip-KarlMoran-Photography-Portfolio-/assets/css/images/Jigsaw.png)
 
 
-Unfixed Bugs
+I have tested that this page works in different browers chromne, firefox, safari. 
+This page is also responsive to a number of devices. 
+
+![Responsive devices](https:/workspace/KarlMoran-PicNSnip-KarlMoran-Photography-Portfolio-/assets/css/images/devices.png)
+
+#### Unfixed Bugs
+I have a few issues with my home page being responsive to a moblie phone. It works fine in landscape view on a moblie phone.
+
+
+## LightHouse 
+
+Home page 
+
+![Responsive devices](https:/workspace/KarlMoran-PicNSnip-KarlMoran-Photography-Portfolio-/assets/css/images/Home-score.png)
+
 
 ## Deployment
 
