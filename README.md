@@ -3,7 +3,7 @@
 
 PicNSip Photogrpahy Portfolio is a site that shows off my photography skills. The site is a portfoloio of all my work throughout the year during the panedmic. I only started studying photography during the covid panedmic but it has always been an interest of mine. Photography helped me get through the panedmic. It made me go out and explore & see things through a camera lens. 
 
-![Responsive devices](https:/workspace/KarlMoran-PicNSnip-KarlMoran-Photography-Portfolio-/assets/css/images/devices.png)
+![Responsive devices](https:/workspace/KarlMoran-PicNSnip-KarlMoran-Photography-Portfolio-/assets/css/images/device-design.png)
 
 
 ## Features 
