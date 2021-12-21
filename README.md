@@ -78,7 +78,7 @@ I have tested that this page works in different browers chromne, firefox, safari
 This page is also responsive to a number of devices. 
 
 #### Unfixed Bugs
-I have a few issues with my home page being responsive to a moblie phone. It works fine in landscape view on a moblie phone.
+I have a few issues with my responsive screen sive to a moblie phone. It works fine in landscape view on a moblie phone. 
 
 Image size, some of my photos are quite big in size. I have tried to reduce the size of all the photos and some are still too big, cause page to perform slowly.  
 
