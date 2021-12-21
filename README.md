@@ -1,9 +1,10 @@
-![PNS logo](https:/workspace/KarlMoran-PicNSnip-KarlMoran-Photography-Portfolio-/assets/css/images/logo-pns.png)
+<img width="381" alt="PNS logo 2021-12-21 at 10 40 48" src="https://user-images.githubusercontent.com/92300013/146916550-fc482490-dbcd-4280-b33b-4b1493b982f7.png">
+
 
 
 PicNSip Photogrpahy Portfolio is a site that shows off my photography skills. The site is a portfoloio of all my work throughout the year during the panedmic. I only started studying photography during the covid panedmic but it has always been an interest of mine. Photography helped me get through the panedmic. It made me go out and explore & see things through a camera lens. 
 
-![Responsive devices](https:/workspace/KarlMoran-PicNSnip-KarlMoran-Photography-Portfolio-/assets/css/images/device-design.png)
+<img width="873" alt="Responsive devices" src="https://user-images.githubusercontent.com/92300013/146917100-2d0b7438-8790-454c-ae7b-8ebbc31865f0.png">
 
 
 ## Features 
@@ -15,7 +16,7 @@ Navigation Bar
 
 This featured is on all four pages, the naviagation bar includes links logo, Home page, Photography page, About and Contact page and is consistent on each page to allow the user to easily navigate from page to page without having to revert back to the previous page via the ‘back’ button.
 
-![Navigation Bar](https:/workspace/KarlMoran-PicNSnip-KarlMoran-Photography-Portfolio-/assets/css/images/Navigation-bar.png)
+<img width="1430" alt="Navigation-bar" src="https://user-images.githubusercontent.com/92300013/146917266-d848efd0-7255-4878-9c23-f2525cf1edd3.png">
 
 Home page
 
@@ -23,7 +24,7 @@ The home page only inlcudes one main photo, this photo acts as a hero image. Thi
 
 This hero image is only an intriduction to my work!
 
-![Home Page](https:/workspace/KarlMoran-PicNSnip-KarlMoran-Photography-Portfolio-/assets/css/images/Home-page.png)
+<img width="1440" alt="Home-page" src="https://user-images.githubusercontent.com/92300013/146917374-d2de58a3-336e-438a-8799-2baa2409dfea.png">
 
 The Footer
 
@@ -33,7 +34,7 @@ The footer also inclubes a video link icon and a signature. The video link shows
 
 The footer is valuable to the user as it encourages them to keep connected via social media
 
-![Footer](https:/workspace/KarlMoran-PicNSnip-KarlMoran-Photography-Portfolio-/assets/css/images/Footer.png)
+<img width="1409" alt="Footer" src="https://user-images.githubusercontent.com/92300013/146917462-5b7ff3af-9d84-4bc3-bdfa-04ed74c8b293.png">
 
 The Photography 
 
@@ -41,23 +42,21 @@ The photography page will show case a number of my photos taken over the last ye
 It is a collection of my best work so far.
 The photos are a mix and macth collection, trying out different styles and settings while learning photogrpahy. 
 
-![Photography Page](https:/workspace/KarlMoran-PicNSnip-KarlMoran-Photography-Portfolio-/assets/css/images/Photography-page.png)
+<img width="1440" alt="Photography-page" src="https://user-images.githubusercontent.com/92300013/146917526-41105d39-a1dd-4fee-b64c-08d073119bdc.png">
 
 The About page
 
 The about page is a breif description on why I got into photography. 
 Gives the users a insight into me.
 
-![About Page](https:/workspace/KarlMoran-PicNSnip-KarlMoran-Photography-Portfolio-/assets/css/images/About-page.png)
-
+<img width="1430" alt="About-page" src="https://user-images.githubusercontent.com/92300013/146917748-bb19846f-6c5c-487f-aa65-c4563f3d20ef.png">
 
 The contact Page 
 
 This will allow users to get into contatct with the owner of the site. 
 To find out any information regarring the photos on the website, could be making a purchases or asking to do a photography job. 
 
-![Contact Page](https:/workspace/KarlMoran-PicNSnip-KarlMoran-Photography-Portfolio-/assets/css/images/Contact-page.png)
-
+<img width="1415" alt="Contact-page" src="https://user-images.githubusercontent.com/92300013/146917866-519eb602-f5d3-4a10-bc8f-b70ff2585078.png">
 
 ## Testing 
 
@@ -66,13 +65,13 @@ To find out any information regarring the photos on the website, could be making
 HTML
 Only the one error returned when passing through the official W3C validator. Not a big deal. 
 
-![Html W3C](https:/workspace/KarlMoran-PicNSnip-KarlMoran-Photography-Portfolio-/assets/css/images/W3c-validator.png)
+<img width="978" alt="W3c-validator" src="https://user-images.githubusercontent.com/92300013/146917914-543bbaf7-1b24-4ec6-893e-7761524b7c11.png">
 
 
 CSS
 No errors were found when passing through the official (Jigsaw) validator
 
-![CSS W3C](https:/workspace/KarlMoran-PicNSnip-KarlMoran-Photography-Portfolio-/assets/css/images/Jigsaw.png)
+<img width="1232" alt="Jigsaw" src="https://user-images.githubusercontent.com/92300013/146917978-99ea8716-fad7-41af-a3f9-6c5d1c48d7ef.png">
 
 
 I have tested that this page works in different browers chromne, firefox, safari. 
@@ -88,7 +87,7 @@ Image size, some of my photos are quite big in size. I have tried to reduce the 
 
 Home page score. 
 
-![Responsive devices](https:/workspace/KarlMoran-PicNSnip-KarlMoran-Photography-Portfolio-/assets/css/images/Home-score.png)
+<img width="286" alt="Home-score" src="https://user-images.githubusercontent.com/92300013/146918039-3912f197-84b2-4b81-8260-969ade558321.png">
 
 
 ## Deployment
