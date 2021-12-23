@@ -58,8 +58,7 @@ h1 , h2 {
 }
 
 .center-image {
-    margin-left: 27%;
-    margin-right: 25%;
+    margin-left: 415px;
     margin-top: 2.5px;      
 }
 /* section background color*/
@@ -217,35 +216,41 @@ input[type=submit]:hover {
 /* Responsize */
 
 @media screen and (max-width: 375px) {
-   
+    .responsive {
+        width: 100%;
+        max-width: 375px;
+        height: auto;
+    }
+    
     ul#nav-menu {
         clear: left;
         float: left;
-        margin-left: 10px;
+        margin-left: 2px;
         margin-bottom: 20px;
-        line-height: 25px;
-        text-align: center;
-        font-size: 90%;
+        line-height: 20px;
+        text-align: left;
+        font-size: 7.5px;
     }
 
     img#left.center {
         clear: left;
-        left: 150px;
-        width: 110px;
-        height: 100px;
+        left: 140px;
+        width: 90px;
+        height: 90px;
         position: relative;
-        
     }
 
-    img.center-image {
-        height: 375px;
-        width: 375px; 
+    .center-image.responsive {
+        margin-left: 50px;
+        width: 50%;
+        max-width: 375px;
+        height: auto;
     }
 
     section#black {
-        width: 100%;
-        max-width: 800px;
-        height: auto;     
+        max-width: 100%;
+        height: auto; 
+        margin-top: 50px;    
     }
 
     img#about-image.position {
@@ -253,7 +258,6 @@ input[type=submit]:hover {
         width: 100px;
         height: 300px;
         top: -10px;
-        
     }
 
     div#about {
@@ -283,6 +287,12 @@ input[type=submit]:hover {
         height: 350px;
         top: 100px;
     }
+
+    li#signature {
+        left: 150px;
+        top: -99px;
+    }
+    
 }
 
 @media screen and (max-width: 800px) {
@@ -461,5 +471,6 @@ input[type=submit]:hover {
         height: auto;
     }
 }
-    
+
+
 
