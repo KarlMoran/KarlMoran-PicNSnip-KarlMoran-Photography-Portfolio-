@@ -72,6 +72,10 @@ h1 , h2 {
     background-color: #000;
 }
 
+#black2 {
+    background-color: #000;
+}
+
 /* footer */
 
 footer {
@@ -254,17 +258,15 @@ input[type=submit]:hover {
     }
 
     img#about-image.position {
-        margin-left: 20px;
+        margin-left: 10px;
         width: 100px;
         height: 300px;
         top: -10px;
     }
 
     div#about {
-        top: 5px;
-        left: 20px;
-        width: 350px;
-        height: 400px;   
+        top: 200px;
+        left: 150px; 
     }
 
     div#about h1 {
@@ -272,26 +274,61 @@ input[type=submit]:hover {
     }
 
     div#about p {
-        font-size: 8.5px;
+        font-size: 9px;
     }
 
     img#selfie {
         width: 200px;
-        height: 200px;
+        height: 175px;
         margin-top: 10px;
     }
 
     div.contact-form.right{
-        margin-bottom: 50px;
-        width: 150px;
-        height: 350px;
-        top: 100px;
+       position:absolute;
+       bottom: -120px;
+       left: -150px;
+
+       font-size: 10px;
+    }
+
+    .responsive2 {
+        width: 90%;
+        max-width: 250px;
+        height: 250px;
+    }
+
+    div.contact-form {
+        height: 380px;
+        width: 330px;
     }
 
     li#signature {
-        left: 150px;
-        top: -99px;
+        left: 8px;
+        top: -35px;
     }
+    
+    ul.social-media {
+        font-size: 14px;
+    }
+
+    section#black1 {
+        max-width: 100%;
+        height: auto; 
+        margin-top: 50px;    
+    }
+
+    .responsive1 {
+        width: 90%;
+        max-width: 250px;
+        height: 250px;
+    }
+
+    section#black2 {
+        max-width: 100%;
+        height: 650px; 
+        margin-top: 50px;    
+    }
+
     
 }
 
@@ -371,7 +408,7 @@ input[type=submit]:hover {
     ul#nav-menu {
         clear: left;
         float: left;
-        margin-left: 30px;
+        margin-left: 50px;
         margin-bottom: 20px;
         line-height: 25px;
         text-align: center;
@@ -381,30 +418,34 @@ input[type=submit]:hover {
         clear: none;
         background: transparent;
         left: 100px;
-        max-width: 50%;
-        height: auto;
-        
+        max-width: 100px;
+        height: 100px;
     }
 
     section#black {
         width: 100%;
         max-width: 1000px;
         height: auto;
-       
+        margin-top: 50px;
     }
 
-    .center-image {
+    .center-image.responsive {
         width: 100%;
         max-width: 400px;
         height: auto;
-        
-    
+    }
+
+    .responsive {
+        width: 100%;
+        max-width: 950px;
+        height: auto;
     }
 
     #black1 {
         width: 100%;
         max-width: 950px;
         height: auto;
+        margin-top: 50px;
     }
 
     img#about-image.position {
@@ -417,6 +458,10 @@ input[type=submit]:hover {
         width: 420px;
         height: 500px;
         margin-right: -60px;  
+    }
+
+    section#black2 {
+        margin-top: 50px;
     }
 
 }
