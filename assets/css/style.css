@@ -220,174 +220,93 @@ input[type=submit]:hover {
 
 /* Responsize */
 
-@media screen and (max-width: 375px) {
-    .responsive {
-        width: 100%;
-        max-width: 375px;
-        height: auto;
-    }
+@media screen and (max-width: 1200px) {
     
-    ul#nav-menu {
-        clear: left;
-        float: left;
-        margin-left: 2px;
-        margin-bottom: 20px;
-        line-height: 20px;
-        text-align: left;
-        font-size: 6.5px;
-    }
-
-    img#left.center {
-        clear: left;
-        left: 140px;
-        width: 90px;
-        height: 90px;
-        position: relative;
-    }
-
-    img.center-image.responsive {
-        margin-left: 50px;
-        width: 50%;
-        max-width: 375px;
-        height: auto;
+    img.center {
+        clear: none;
+        background: transparent;
+        margin-left: 100px;
+        max-width: 140px;
+        height: 140px;
     }
 
     section#black {
-        max-width: 100%;
-        height: auto; 
-        margin-top: 50px;    
+        width: 100%;
+        max-width: 1200px;
+        height: auto;
     }
 
-    img#about-image.position {
-        margin-left: 10px;
-        width: 100px;
-        height: 300px;
-        top: -10px;
-    }
-
-    div#about {
-        top: 200px;
-        left: 150px; 
-    }
-
-    div#about h1 {
-        font-size: 10px;
-    }
-
-    div#about p {
-        font-size: 9px;
-    }
-
-    img#selfie {
-        max-width: 200px;
-        height: 175px;
-        margin-top: 10px;
-    }
-
-    div.contact-form.right{
-       position:absolute;
-       bottom: -120px;
-       left: -150px;
-
-       font-size: 10px;
-    }
-
-    .responsive2 {
-        width: 90%;
-        max-width: 250px;
-        height: 250px;
-    }
-
-    div.contact-form {
-        height: 380px;
-        width: 330px;
+    img.center-image {
+        margin-left: 300px;
     }
 
     li#signature {
-        left: 8px;
-        top: -35px;
-    }
-    
-    ul.social-media {
-        font-size: 14px;
+        margin-top: 10px;
     }
 
     section#black1 {
-        max-width: 100%;
-        height: auto; 
-        margin-top: 50px;    
+        width: 100%;
+        max-width: 1200px;
+        height: auto;
+        margin-top: 50px;
     }
-
-    .responsive1 {
-        width: 90%;
-        max-width: 250px;
-        height: 250px;
-    }
-
-    section#black2 {
-        max-width: 100%;
-        height: 650px; 
-        margin-top: 50px;    
-    }
-
-    
 }
 
-@media screen and (max-width: 600px) {
-    .column1 {
-        flex: 100%;
-        max-width: 100%;
+@media screen and (max-width: 1024px) {
+    div.column1 {
         column-count: 2;
+        display: flex;
+        flex-direction: column;
     }
 
-    #nav-menu {
+    ul#nav-menu {
         clear: left;
         float: left;
-        margin-left: 30px;
+        margin-left: 275px;
         margin-bottom: 20px;
         line-height: 25px;
         text-align: center;
-        font-size: 90%;
     }
 
-    img#left.center {
+    img.center {
         clear: none;
         background: transparent;
-        left: 50px;
-        max-width: 100%;
+        left: 100px;
+        max-width: 50%;
         height: auto;
     }
 
-    img#about-image.postision {
-        width: 75%;
-        max-width: ;
-        height: auto;
-        margin-left: 75px;
+    img#about-image.position {
+        margin-left: 20px;
+        width: 500px;
+        top: -10px;
+
     }
-    
+
     div#about {
-        max-width: 200px;
-        height: 350px;
-        margin-right: -550px;
-        margin-top: 180px;
-        right: 250px;
-    } 
-
-    div#about h1, p {
-        font-size: 13.5px;
+        width: 420px;
+        height: 500px;
+        margin-right: -60px;
+        
     }
 
     section#black {
-        width: 150%;
-        max-width: 950px;
-        height: auto;
+        width: 100%;
+        max-width: 1030px;
+        height: auto;  
     }
-}
 
-@media screen and (max-width: 800px) {
-    .column1 {
-        flex: 50%;
-        max-width: 50%;
+    img.center-image {
+        margin-left: 225px;
+    }
+
+    div.contact-form.right {
+        margin-top: -385px;
+        
+    }
+
+    img#selfie {
+        margin-left: 25px;
     }
 }
 
@@ -404,15 +323,14 @@ input[type=submit]:hover {
         margin-left: 50px;
         margin-bottom: 20px;
         line-height: 25px;
-        text-align: center;
+        text-align: left;
     }
 
-    img#left.center {
+    img.center {
         clear: none;
-        background: transparent;
         left: 100px;
-        max-width: 100px;
-        height: 100px;
+        max-width: 50%;
+        height: auto;
     }
 
     section#black {
@@ -472,98 +390,183 @@ input[type=submit]:hover {
 
 }
 
-@media screen and (max-width: 1024px) {
-    div.column1 {
-        column-count: 2;
-        display: flex;
-        flex-direction: column;
-    }
-
-    ul#nav-menu {
-        clear: left;
-        float: left;
-        margin-left: 275px;
-        margin-bottom: 20px;
-        line-height: 25px;
-        text-align: center;
-    }
-
-    img#left.center {
-        clear: none;
-        background: transparent;
-        left: 100px;
+@media screen and (max-width: 800px) {
+    .column1 {
+        flex: 50%;
         max-width: 50%;
-        height: auto;
-    }
-
-    img#about-image.position {
-        margin-left: 20px;
-        width: 500px;
-        top: -10px;
-
-    }
-
-    div#about {
-        width: 420px;
-        height: 500px;
-        margin-right: -60px;
-        
-    }
-
-    section#black {
-        width: 100%;
-        max-width: 1030px;
-        height: auto;  
-    }
-
-    img.center-image {
-        margin-left: 225px;
-    }
-
-    div.contact-form.right {
-        margin-top: -385px;
-        
-    }
-
-    img#selfie {
-        margin-left: 25px;
     }
 }
 
-@media screen and (max-width: 1200px) {
-    img#left.center {
+@media screen and (max-width: 600px) {
+    .column1 {
+        flex: 100%;
+        max-width: 100%;
+        column-count: 2;
+    }
+
+    #nav-menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+        text-align: center;
+        font-size: 90%;
+    }
+
+    img.center {
         clear: none;
         background: transparent;
-        margin-left: 450px;
-        max-width: 140px;
-        height: 140px;
+        left: 50px;
+        max-width: 100%;
+        height: auto;
+    }
+
+    img#about-image.postision {
+        width: 75%;
+        max-width: 200px;
+        height: auto;
+        margin-left: 75px;
+    }
+    
+    div#about {
+        max-width: 200px;
+        height: 350px;
+        margin-right: -550px;
+        margin-top: 180px;
+        right: 250px;
+    } 
+
+    div#about h1, p {
+        font-size: 13.5px;
     }
 
     section#black {
+        width: 150%;
+        max-width: 950px;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .responsive {
         width: 100%;
-        max-width: 1200px;
+        max-width: 375px;
+        height: auto;
+    }
+    
+    ul#nav-menu {
+        clear: left;
+        float: left;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        line-height: 20px;
+        text-align: left;
+        font-size: 7.5px;
+    }
+
+    img.center {
+        clear: left;
+        left: 160px;
+        width: 90px;
+        height: 90px;
+        position: relative;
+        top: -130px;
+    }
+
+    img.center-image.responsive {
+        margin-left: 50px;
+        width: 80%;
+        max-width: 375px;
         height: auto;
     }
 
-    img.center-image {
-        margin-left: 300px;
+    header {
+        height: 100px;
     }
 
-    li#signature {
+    nav {
+        height: 100px;
+    }
+
+    section#black {
+        max-width: 100%;
+        height: auto; 
+    }
+
+    img#about-image.position {
+        margin-left: 10px;
+        width: 250px;
+        height: 300px;
+        top: -10px;
+    }
+
+    div#about {
+        top: 200px;
+        left: 150px; 
+    }
+
+    div#about h1 {
+        font-size: 10px;
+    }
+
+    div#about p {
+        font-size: 9px;
+    }
+
+    img#selfie {
+        max-width: 200px;
+        height: 175px;
         margin-top: 10px;
     }
 
+    div.contact-form.right{
+       position:absolute;
+       bottom: -120px;
+       left: -150px;
+
+       font-size: 10px;
+    }
+
+    .responsive2 {
+        width: 90%;
+        max-width: 250px;
+        height: 250px;
+    }
+
+    div.contact-form {
+        height: 380px;
+        width: 330px;
+    }
+
+    li#signature {
+        left: 8px;
+        top: -10px;
+    }
+    
+    ul.social-media {
+        font-size: 14px;
+    }
+
     section#black1 {
-        width: 100%;
-        max-width: 1200px;
-        height: auto;
-        margin-top: 50px;
+        max-width: 100%;
+        height: auto; 
+        margin-top: 50px;    
+    }
+
+    .responsive1 {
+        width: 90%;
+        max-width: 250px;
+        height: 250px;
+    }
+
+    section#black2 {
+        max-width: 100%;
+        height: 650px; 
+        margin-top: 50px;    
     }
 
     
-
-    
-
 }
 
 
