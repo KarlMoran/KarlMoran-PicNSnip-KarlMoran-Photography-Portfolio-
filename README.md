@@ -6,6 +6,9 @@ PicNSip Photogrpahy Portfolio is a site that shows off my photography skills. Th
 
 <img width="873" alt="Responsive devices" src="https://user-images.githubusercontent.com/92300013/146917100-2d0b7438-8790-454c-ae7b-8ebbc31865f0.png">
 
+## PNS Logo
+The PicNSnip logo was design by myself using a different platform called cava. I have used canva a number of different times for creating and designing social media graphics, presentations, posters, documents and other visual content.
+
 
 ## Features 
 PicNsnip site consits of four pages with idenitcal navigaition and footer styles. 
