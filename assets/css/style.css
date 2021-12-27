@@ -70,10 +70,12 @@ h1 , h2 {
 
 #black1 {
     background-color: #000;
+    height: 620px;
 }
 
 #black2 {
     background-color: #000;
+    height: 620px;
 }
 
 /* footer */
@@ -134,7 +136,7 @@ footer {
     background-color: hsla(0, 1%, 42%, 0.979);
     padding: 20px;
     color: white;
-    margin-top: -375px;
+    margin-top: -350px;
     margin-bottom: 20px;
     margin-right: 75px;
     width: 40%;
@@ -233,7 +235,7 @@ input[type=submit]:hover {
         margin-bottom: 20px;
         line-height: 20px;
         text-align: left;
-        font-size: 7.5px;
+        font-size: 6.5px;
     }
 
     img#left.center {
@@ -244,7 +246,7 @@ input[type=submit]:hover {
         position: relative;
     }
 
-    .center-image.responsive {
+    img.center-image.responsive {
         margin-left: 50px;
         width: 50%;
         max-width: 375px;
@@ -278,7 +280,7 @@ input[type=submit]:hover {
     }
 
     img#selfie {
-        width: 200px;
+        max-width: 200px;
         height: 175px;
         margin-top: 10px;
     }
@@ -429,9 +431,9 @@ input[type=submit]:hover {
         margin-top: 50px;
     }
 
-    .center-image.responsive {
+    img.center-image {
         width: 100%;
-        max-width: 400px;
+        max-width: 500px;
         height: auto;
     }
 
@@ -462,6 +464,19 @@ input[type=submit]:hover {
 
     section#black2 {
         margin-top: 50px;
+    }
+
+    li#signature {
+        top: -20px;
+    }
+
+    div.contact-form {
+        left: -100px;
+    }
+
+    img#selfie {
+        left: 20px;
+        width: 400px;
     }
 
 }
