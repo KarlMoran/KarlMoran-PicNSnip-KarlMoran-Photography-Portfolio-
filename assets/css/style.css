@@ -221,11 +221,13 @@ input[type=submit]:hover {
 /* Responsize */
 
 @media screen and (max-width: 1200px) {
+
+    ul#nav-menu {
+        font-size: large;
+    }
     
     img.center {
         clear: none;
-        background: transparent;
-        margin-left: 100px;
         max-width: 140px;
         height: 140px;
     }
@@ -422,6 +424,27 @@ input[type=submit]:hover {
     }
 }
 
+@media screen and (max-width: 700px) {
+    img.center {
+        clear: none;
+        max-width: 95px;
+        height: 95px;
+    }
+
+    section#black {
+        width: 100%;
+        max-width: 800px;
+        height: auto;
+    }
+
+    img.center-image.responsive {
+        margin-left: 125px;
+        width: 90%;
+        max-width: 500px;
+        height: auto;
+    }
+}
+
 @media screen and (max-width: 600px) {
     .column1 {
         flex: 100%;
@@ -436,16 +459,21 @@ input[type=submit]:hover {
         margin-bottom: 20px;
         line-height: 25px;
         text-align: center;
-        font-size: 110%;
+        font-size: 120%;
     }
 
     img.center {
-        clear: left;
-        left: 500px;
-        width: 140px;
-        height: 140px;
+        clear: none;
+        max-width: 100px;
+        height: 100px;
         position: relative;
-        top: -145px;
+    }
+
+    img.center-image.responsive {
+        margin-left: 135px;
+        width: 100%;
+        max-width: 600px;
+        height: auto;
     }
 
     img#about-image.postision {
@@ -474,7 +502,11 @@ input[type=submit]:hover {
     }
 
     header {
-        height: 150px;
+        height: 100px;
+    }
+
+    li#signature {
+        margin-right: -280px;
     }
 
 }
