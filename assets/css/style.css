@@ -511,6 +511,82 @@ input[type=submit]:hover {
 
 }
 
+@media screen and (max-width: 550px) {
+    img#about-image.position {
+        margin-left: 10px;
+        width: 300px;
+        height: 300px;
+        top: -10px;
+    }
+    
+    div#about {
+        top: 200px;
+        left: 280px; 
+    }
+    
+    div#about h1 {
+        font-size: 10px;
+    }
+    
+    div#about p {
+        font-size: 9px;
+    }
+
+    ul#nav-menu {
+        font-size: medium;
+        margin-left: 10px;
+    }
+
+    img#selfie {
+        max-width: 300px;
+        height: 250px;
+        margin-top: 10px;
+    }
+
+    div.contact-form.right{
+       position:absolute;
+       bottom: -90px;
+       left: -20px;
+       font-size: 10px;
+    }
+
+    .responsive2 {
+        width: 90%;
+        max-width: 250px;
+        height: 350px;
+    }
+
+    .responsive {
+        width: 100%;
+        max-width: 450px;
+        height: auto;
+    }
+
+    img.center-image.responsive {
+        margin-left: 50px;
+        width: 80%;
+        max-width: 450px;
+        height: auto;
+    }
+
+    section#black {
+        max-width: 120%;
+        height: auto; 
+    }
+
+    li#signature {
+        left: -300px;
+        top: 1px;
+        
+    }
+    section#black2 {
+        max-width: 120%;
+        height: 650px; 
+    }
+
+}
+
+
 @media screen and (max-width: 400px) {
     .responsive {
         width: 100%;
