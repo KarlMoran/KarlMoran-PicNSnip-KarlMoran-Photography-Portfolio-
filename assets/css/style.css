@@ -390,6 +390,31 @@ input[type=submit]:hover {
 
 }
 
+@media screen and (max-width: 965px) {
+    ul#nav-menu {
+        clear: left;
+        float: left;
+        margin-left: 50px;
+        margin-bottom: 20px;
+        line-height: 25px;
+        text-align: left;
+    }
+
+    img.center {
+        clear: none;
+        left: 100px;
+        max-width: 50%;
+        height: auto;
+    }
+
+    section#black {
+        width: 100%;
+        max-width: 1000px;
+        height: auto;
+        margin-top: 50px;
+    }
+}
+
 @media screen and (max-width: 800px) {
     .column1 {
         flex: 50%;
@@ -411,15 +436,16 @@ input[type=submit]:hover {
         margin-bottom: 20px;
         line-height: 25px;
         text-align: center;
-        font-size: 90%;
+        font-size: 110%;
     }
 
     img.center {
-        clear: none;
-        background: transparent;
-        left: 50px;
-        max-width: 100%;
-        height: auto;
+        clear: left;
+        left: 500px;
+        width: 140px;
+        height: 140px;
+        position: relative;
+        top: -145px;
     }
 
     img#about-image.postision {
@@ -445,6 +471,62 @@ input[type=submit]:hover {
         width: 150%;
         max-width: 950px;
         height: auto;
+    }
+
+    header {
+        height: 150px;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    .responsive {
+        width: 100%;
+        max-width: 375px;
+        height: auto;
+    }
+    
+    ul#nav-menu {
+        clear: left;
+        float: left;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        line-height: 20px;
+        text-align: center;
+        font-size: 9.5px;
+    }
+
+    img.center {
+        clear: left;
+        left: 350px;
+        width: 99px;
+        height: 99px;
+        position: relative;
+        top: -135px;
+    }
+
+    section#black {
+        max-width: 300%;
+        height: auto; 
+    }
+
+    header {
+        height: 100px;
+    }
+    nav {
+        height: 100px;
+    }
+
+    img.center-image.responsive {
+        margin-left: 125px;
+        width: 80%;
+        max-width: 375px;
+        height: auto;
+    }
+
+    li#signature {
+        margin-top: 12px;
+        margin-right: -15px;
     }
 }
 
@@ -490,7 +572,7 @@ input[type=submit]:hover {
     }
 
     section#black {
-        max-width: 100%;
+        max-width: 120%;
         height: auto; 
     }
 
@@ -568,6 +650,7 @@ input[type=submit]:hover {
 
     
 }
+
 
 
 
